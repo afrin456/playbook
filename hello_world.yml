@@ -4,5 +4,5 @@
   tasks:
     - name: Hello Message
       debug:
-        msg: "Hello World from {{ var }} Git Repo!!!"
+        msg: "Hello World from {{ var }} Git Repo!!"
 
