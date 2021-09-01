@@ -3,7 +3,7 @@
   hosts: all
   tasks:
     - name: Hello Message
-      shell: hostname
+      shell: sudo yum -h
  #     debug:
  #       msg: "Hello World from {{ var }} Git Repo!!"
 
