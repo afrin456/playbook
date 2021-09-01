@@ -3,6 +3,7 @@
   hosts: all
   tasks:
     - name: Hello Message
-      debug:
-        msg: "Hello World from {{ var }} Git Repo!!"
+      shell: hostname
+ #     debug:
+ #       msg: "Hello World from {{ var }} Git Repo!!"
 
