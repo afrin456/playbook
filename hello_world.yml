@@ -5,7 +5,7 @@
     - name: Hello Message
       yum: 
         list: ansible
-        register: result
+      register: result
 #      shell: ping google.com -c 2
 #      register: result
  #     debug:
