@@ -3,8 +3,11 @@
   hosts: all
   tasks:
     - name: Hello Message
-      shell: ping google.com -c 2
-      register: result
+      yum: 
+        name: *
+        state: latest
+#      shell: ping google.com -c 2
+#      register: result
  #     debug:
  #       msg: "Hello World from {{ var }} Git Repo!!"
 
