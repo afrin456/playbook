@@ -4,8 +4,8 @@
   tasks:
     - name: Hello Message
       yum: 
-        name: '*'
-        state: latest
+        list: ansible
+      register: result
 #      shell: ping google.com -c 2
 #      register: result
  #     debug:
