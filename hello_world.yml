@@ -4,7 +4,7 @@
   tasks:
     - name: Hello Message
       yum: 
-        list: ping
+        list: curl
         register: result
 #      shell: ping google.com -c 2
 #      register: result
